@@ -1,0 +1,274 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-image: url(/image/back3.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    color: white;
+  }
+  
+  /* Navigation */
+  nav {
+    /* background-color: #1a1a1a; */
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;</a>
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul b {
+    font-size: 1.5rem;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  nav ul button {
+    /* color: #ffffff; */
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    border-radius: 20px;
+  }
+  
+  /* Main Sections */
+  section {
+    padding: 50px;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .allstock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .stock {
+    flex: 1;
+    text-align: center;
+    margin-top: 12%;
+  }
+  .stock h1{
+    font-size: 88px;
+    margin-bottom: 15px;
+  }
+  .stock span{
+    color:#ff960b ;
+  }
+.stock .btn{
+    display: inline;
+    margin-top: 30px;
+    background: #ff960b;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+  
+  .p {
+    font-size: 14px;
+    line-height: 22px;
+   
+  }
+  
+  .p2 {
+    margin-top: 20px;
+  }
+  
+  .circle {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .circle img {
+    max-width: 100%;
+  }
+  
+  .second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .second2 {
+    flex: 1;
+  }
+  
+  .bit img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  .bitcoins2{
+    position: relative;
+    right: 10%;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .bit{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 15px;
+    color: #ff960b;
+    border: 1px solid #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+  }
+  .bit h3{
+    color: #fff;
+    margin-top: 5px;
+  }
+  
+  .why {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .why .t,
+  .why .lock,
+  .why .clock {
+    text-align: center;
+  }
+  
+  .why i {
+    font-size: 2.5rem;
+    color: #1a1a1a;
+  }
+  
+  .perfect {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .writing,
+  .man {
+    flex: 1;
+  }
+  
+  .man h1 {
+    margin-top: 0;
+  }
+  
+  .reviews {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .reviews p {
+    text-align: center;
+  }
+  
+  .blog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .blog img {
+    max-width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog b {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    /* Responsive Navigation */
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li a {
+      margin: 10px 0;
+    }
+  
+    /* Responsive Sections */
+    section {
+      padding: 30px;
+    }
+  
+    .allstock {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .circle {
+      margin-top: 30px;
+      justify-content: center;
+    }
+  
+    .circle img {
+      width: 80%;
+    }
+  
+    .second {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .bit {
+      margin-top: 30px;
+    }
+  
+    .bit img {
+      width: 70%;
+    }
+  
+    .why {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .perfect {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .writing,
+    .man {
+      margin-top: 30px;
+    }
+  
+    .blog {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .t i{
+    color: #ffffff;
+  }
+  .clock i{
+color: #fff;
+  }
+  .lock i{
+    color: #ffffff;
+  }
+  
